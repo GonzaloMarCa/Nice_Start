@@ -7,15 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".Login"
     android:background="@drawable/gradient">
-<ImageView
-    android:id="@+id/logo"
-    android:layout_width="80dp"
-    android:layout_height="80dp"
-    android:layout_marginTop="48dp"
-    android:src="@drawable/Cat_Logo"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/cat_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideLine1"
@@ -78,28 +78,21 @@
 
     <Button
         android:id="@+id/login"
-        style="@style/Widget.MaterialComponents.Button"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="@id/guideLine2"
         app:layout_constraintStart_toStartOf="@id/guideLine1"
         app:layout_constraintTop_toBottomOf="@id/til2"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/Cadet_Blue"
-        android:text="Login"
-        />
+        android:backgroundTint="@color/button_custom"
+        android:text="@string/btnLogin"
+        style="@style/MyButtonLogin"/>
 
     <Button
         android:id="@+id/signup"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="@id/guideLine2"
         app:layout_constraintStart_toStartOf="@id/guideLine1"
         app:layout_constraintTop_toBottomOf="@id/login"
-        android:textColor="@color/white"
-
-        android:text="Login"
-        />
+        android:text="@string/btnSignUp"
+        style="@style/MyButtonSign" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
