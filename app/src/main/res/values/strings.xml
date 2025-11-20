@@ -3,4 +3,6 @@
     <string name="btnLogin">LOGIN</string>
     <string name="btnSignUp">SIGN UP</string>
     <string name="btnCancel">CANCEL</string>
+    <string name="username">José Robledillos</string>
+    <string name="infoProfile">Hola, me llamo José y este es mi perfil. Agradecería que no hablaras de mi aspecto</string>
 </resources>
