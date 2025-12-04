@@ -15,6 +15,10 @@
         <item name="actionBarStyle">@style/TransparentActionBar</item>
     </style>
 
+    <style name="Theme.NiceStart.SplashScreen" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
     <style name="TransparentActionBar" parent="Widget.AppCompat.ActionBar">
         <item name="background">@android:color/transparent</item>
 

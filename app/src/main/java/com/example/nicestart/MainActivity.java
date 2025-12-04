@@ -5,6 +5,7 @@ import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,23 +19,33 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 public class MainActivity extends AppCompatActivity {
 
     private SwipeRefreshLayout swipeLayout;
+    private WebView miVisorWeb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        TextView mycontext = findViewById(R.id.txtmain);
+        WebView mycontext = findViewById(R.id.WVista);
         registerForContextMenu(mycontext);
+
+        miVisorWeb = (WebView) findViewById(R.id.WVista);
+
+        String html = "<html>" +
+                "<head><style>" +
+                "html, body { margin:0; padding:0; height:100%; overflow:hidden; }"
+                + "img { width:100%; height:100%; object-fit:cover; }" +
+                "</style></head>" +
+                "<body>" +
+                "<img src='https://thispersondoesnotexist.com'/> "+
+                "</body></html>";
+        miVisorWeb.loadDataWithBaseURL(null, html, "text/html", "UTF-8", null);
+
+
 
         swipeLayout = findViewById(R.id.swipe);
         swipeLayout.setOnRefreshListener(mOnRefreshListener);
-
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
     }
 
     protected SwipeRefreshLayout.OnRefreshListener
@@ -44,7 +55,12 @@ public class MainActivity extends AppCompatActivity {
         public void onRefresh() {
             Toast toast0 = Toast.makeText(MainActivity.this, "Hi there! You want an egg?",Toast.LENGTH_LONG);
             toast0.show();
+
+            miVisorWeb.reload();
+
             swipeLayout.setRefreshing(false);
+
+
         }
     };
 
@@ -84,5 +100,4 @@ public class MainActivity extends AppCompatActivity {
         }
         return false;
     }
-
 }
