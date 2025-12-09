@@ -1,5 +1,6 @@
 package com.example.nicestart;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.Menu;
@@ -74,7 +75,12 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onContextItemSelected(MenuItem item) {
-        if (item.getItemId() == R.id.item1) {
+        if(item.getItemId() == R.id.item0) {
+            Intent intent = new Intent(MainActivity.this, activityProfile.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+        } else if (item.getItemId() == R.id.item1) {
             Toast toast = Toast.makeText(this, "Item copied",
                     Toast.LENGTH_LONG);
         } else if (item.getItemId() == R.id.item2) {
@@ -100,4 +106,5 @@ public class MainActivity extends AppCompatActivity {
         }
         return false;
     }
+
 }

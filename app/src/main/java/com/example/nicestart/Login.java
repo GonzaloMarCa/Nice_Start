@@ -22,17 +22,18 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         ImageView mSea = findViewById(R.id.backView);
         Glide.with(this)
-                .load(R.drawable.hibiscus)
+                .load(R.drawable.hipman)
+                .centerCrop()
                 .into(mSea);
     }
 
 
-    /*public void openMain(View v){
+    public void openMain(View v){
         Intent intent = new Intent(Login.this, MainActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
-    }*/
+    }
 
     public void openSignUp(View v){
         Intent intent = new Intent(Login.this, SignUp.class);

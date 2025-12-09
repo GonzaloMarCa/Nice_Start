@@ -22,7 +22,7 @@ public class SignUp extends AppCompatActivity {
         setContentView(R.layout.activity_signup);
         ImageView mSea = findViewById(R.id.backView);
         Glide.with(this)
-                .load(R.drawable.rose)
+                .load(R.drawable.girl)
                 .centerCrop()
                 .into(mSea);
     }

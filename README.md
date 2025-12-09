@@ -8,7 +8,7 @@ Images of this project's screens have been added.
 **SignUp page**
 ![signUp_activity](img/signUp.png)
 **Splash Screen**
-
+![splash]()
 
 >This project is under creative common.
 >[Creative commons Org licenses By Sa 4](https://creativecommons.org/licenses/by-sa/4.0/)
