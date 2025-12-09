@@ -27,7 +27,13 @@ public class SignUp extends AppCompatActivity {
                 .into(mSea);
     }
 
-    public void openLogin(View v){
+    public void openMain(View v){
+        Intent intent = new Intent(SignUp.this, MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+    }
+    public void login(View v){
         Intent intent = new Intent(SignUp.this, Login.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);

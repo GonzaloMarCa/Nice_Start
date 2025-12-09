@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/backView"
-        android:layout_width="256dp"
-        android:layout_height="256dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />
@@ -114,16 +114,18 @@
         app:layout_constraintStart_toStartOf="@id/guideLine1"
         app:layout_constraintTop_toBottomOf="@id/til3"
         android:text="@string/btnSignUp"
+        android:onClick="openMain"
         style="@style/MyButtonSign" />
     <Button
         android:id="@+id/cancel"
-        android:onClick="openLogin"
         android:layout_width="0dp"
         android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="@id/guideLine2"
         app:layout_constraintStart_toStartOf="@id/guideLine1"
         app:layout_constraintTop_toBottomOf="@id/signup"
         android:text="@string/btnCancel"
-        style="@style/MyButtonSign" />
+        android:onClick="login"
+        style="@style/MyButtonSign"
+        tools:ignore="OnClick" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
