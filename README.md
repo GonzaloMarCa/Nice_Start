@@ -4,15 +4,47 @@ Images of this project's screens have been added.
 
 
 **Login page**
+
+
 ![login_activity](img/login.png)
+
+
 **SignUp page**
+
+
 ![signUp_activity](img/signUp.png)
+
+
 **Splash Screen**
+
+
 ![splash_screen](img/splash.png)
+
+
 **Main Activity**
+
+
 ![main_activity](img/main.png)
+
+
 **Profile Activity**
+
+
 ![profile_screen](img/profile.png)
+
+
+Images of this project's code has also been added.
+
+
+**Context menu**
+
+
+![menu_context](img/menuCode.png)
+
+
+**Splash Screen**
+
+![splash_code](img/splashCode.png)
 
 >This project is under creative common.
 >[Creative commons Org licenses By Sa 4](https://creativecommons.org/licenses/by-sa/4.0/)

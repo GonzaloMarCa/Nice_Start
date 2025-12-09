@@ -83,9 +83,11 @@ public class MainActivity extends AppCompatActivity {
         } else if (item.getItemId() == R.id.item1) {
             Toast toast = Toast.makeText(this, "Item copied",
                     Toast.LENGTH_LONG);
+            toast.show();
         } else if (item.getItemId() == R.id.item2) {
             Toast toast2 = Toast.makeText(this, "Downloading item...",
                     Toast.LENGTH_LONG);
+            toast2.show();
         }
 
         return false;
@@ -103,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
         if(id == R.id.item1) {
             Toast toast = Toast.makeText(this, "Infecting",
                     Toast.LENGTH_LONG);
+            toast.show();
         }
         return false;
     }
