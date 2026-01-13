@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#B6FFFFFF</color>
+    <color name="Aquamarine">#907FFFD4</color>
+    <color name="Cadet_Blue">#8C5F9EA0</color>
+    <color name="Caribbean_Green">#9200CC99</color>
+    <color name="Sunset_Purple">#886A2C70</color>
+    <color name="Magenta_claro">#9CB83B5E</color>
+</resources>
