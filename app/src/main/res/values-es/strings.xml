@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nice Start</string>
+    <string name="btnLogin">INICIAR SESION</string>
+    <string name="btnSignUp">CREAR CUENTA</string>
+    <string name="btnCancel">CANCELAR</string>
+    <string name="username">José Robledillos</string>
+    <string name="infoProfile">Hola, me llamo José y este es mi perfil. Agradecería que no hablaras de mi aspecto.</string>
+</resources>

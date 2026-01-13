@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nice Start</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="btnSignUp">SIGN UP</string>
+    <string name="btnCancel">CANCEL</string>
+    <string name="username">Joseph Rubbledon</string>
+    <string name="infoProfile">Hi, my name is Joseph and this is my profile. I\'d be thankful if you ignored my appearance</string>
+</resources>
