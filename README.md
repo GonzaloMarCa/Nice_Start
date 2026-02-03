@@ -45,6 +45,10 @@ Images of this project's screens have been added.
 ![splash_code](img/splashCode.png)
 
 
+**Bottom App Bar**
+
+![activity_bab](img/bottomAppBar.png)
+
 There are also landscape versions for each of this project's screens.
 
 
@@ -70,6 +74,19 @@ There are also landscape versions for each of this project's screens.
 **Splash Screen**
 
 ![splash_landscape](img/splashLandscape.png)
+
+There has also been added a dark theme into the app
+
+
+**Login Activity**
+
+
+![login_dark_themed](img/loginDark.png)
+
+**Main Activity**
+
+
+![main_dark_themed](img/mainDarkTheme.png)
 
 
 >This project is under creative common.
