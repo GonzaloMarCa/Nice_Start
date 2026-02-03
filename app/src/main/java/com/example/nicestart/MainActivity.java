@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onContextItemSelected(MenuItem item) {
         if(item.getItemId() == R.id.item0) {
-            Intent intent = new Intent(MainActivity.this, activityProfile.class);
+            Intent intent = new Intent(MainActivity.this, MainBAB.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);

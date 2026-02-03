@@ -16,7 +16,7 @@
         android:theme="@style/Theme.NiceStart">
         <activity
             android:name=".MainBAB"
-            android:exported="false"
+            android:exported="true"
             android:theme="@style/Theme.NiceStart" />
         <activity
             android:name=".activityProfile"

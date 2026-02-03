@@ -33,8 +33,6 @@ Images of this project's screens have been added.
 ![profile_screen](img/profile.png)
 
 
-Images of this project's code has also been added.
-
 
 **Context menu**
 
@@ -45,6 +43,34 @@ Images of this project's code has also been added.
 **Splash Screen**
 
 ![splash_code](img/splashCode.png)
+
+
+There are also landscape versions for each of this project's screens.
+
+
+**Login page**
+
+
+![login_landscape](img/loginLandscape.png)
+
+
+**SignUp page**
+
+
+![signUp_landscape](img/signupLandscape.png)
+
+
+
+**Main Activity**
+
+
+![main_landscape](img/mainLandscape.png)
+
+
+**Splash Screen**
+
+![splash_landscape](img/splashLandscape.png)
+
 
 >This project is under creative common.
 >[Creative commons Org licenses By Sa 4](https://creativecommons.org/licenses/by-sa/4.0/)

@@ -3,6 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     >
     <item
+        android:id="@+id/item0"
+        android:title="BAB"
+        app:showAsAction="ifRoom"/>
+    <item
         android:id="@+id/item1"
         android:title="Copy"
         app:showAsAction="ifRoom" />
